@@ -7,24 +7,62 @@
 
 <body>
 
+    <nav class="navbar">
+    <h2>Aditi</h2>
+
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#internship">Internship</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
     <div class="hero">
 
         <h1>Hi, I'm Aditi Bansal 👋</h1>
 
         <p class="tagline">
-            BCA Student | Web Development Learner
+           Aspiring Frontend Developer | BCA Student
         </p>
 
         <p class="intro">
-            I am a BCA student passionate about web development and building creative projects using HTML, CSS and JavaScript.
+            Passionate about building creative, interactive and user-friendly web experiences using HTML, CSS and JavaScript.
         </p>
 
         <a href="#projects">
     <button>View My Projects</button>
 </a>
-
+      <a href="resume.pdf" target="_blank">
+        <button>Resume</button>
+</a>
+<div class="stats-container">
+    <div class="stat-card">
+        <h2>4+</h2>
+        <p>Projects</p>
     </div>
-<section class="about">
+
+    <div class="stat-card">
+        <h2>1</h2>
+        <p>Internship</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>5+</h2>
+        <p>Technologies</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>∞</h2>
+        <p>Learning</p>
+</div>
+  </div>
+      
+     </div>
+<section class="about" id="about">
 
     <h2>About Me</h2>
 
@@ -33,34 +71,72 @@
     </p>
 
     <p>
-        I enjoy learning web development and creating projects using HTML, CSS and JavaScript. My goal is to become a skilled developer and continuously improve my technical skills through practical projects.
+       I am a BCA student at ICFAI University Jaipur with a passion for frontend web development.
+
+I enjoy building responsive and interactive web applications using HTML, CSS, and JavaScript. Through internships, real-world projects, and continuous learning, I am continuously improving my technical skills while exploring modern web technologies.
+
+
     </p>
 
 </section>
-<section class="skills">
+<section class="internship" id="internship">
+    <h2>Internship</h2>
+
+    <div class="internship-card">
+        <h3>Web Development Intern</h3>
+        <p>May 2026 - Present</p>
+        <p>
+            Currently gaining practical experience as a Web Development Intern by building frontend projects using HTML, CSS, and JavaScript while continuously strengthening problem-solving and development skills.
+
+        </p>
+    </div>
+</section>
+<section class="skills" id="skills">
 
     <h2>Skills</h2>
 
-    <div class="skills-box">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>C++</span>
-        <span>GitHub</span>
+    <div class="skills-container">
+
+        <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <div class="skill-category">
+            <h3>Tools</h3>
+            <span>VS Code</span>
+            <span>GitHub</span>
+            <span>Netlify</span>
+        </div>
+
+        <div class="skill-category">
+            <h3>Currently Learning</h3>
+            <span>Responsive Design</span>
+            <span>Generative AI</span>
+            <span>Git & GitHub</span>
+        </div>
+
     </div>
 
 </section>
 <section class="projects" id="projects"> 
-</section>
 
     <h2>Projects</h2>
 
     <div class="project-card">
         <h3>🎵 Lana Player</h3>
+        <p class="status">✅ Completed</p>
         <p>
             A personal music player built using HTML, CSS and JavaScript.
             Features include play, pause, progress bar, volume control and playlist support.
         </p>
+        <div class="tech-tags">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+   </div>
         <a href="https://github.com/aditibansal-bit/Lana-Player" target="_blank">
         <button>GitHub</button>
         </a>
@@ -70,12 +146,19 @@
     </div>
     <div class="project-card">
     <h3>📚 Student Task Manager</h3>
+    <p class="status">✅ Completed</p>
 
     <p>
         A task management web application built using HTML, CSS and JavaScript.
         Features include adding tasks, editing tasks, deleting tasks,
         dark mode, task statistics, search, filters, sorting and local storage.
     </p>
+    <div class="tech-tags">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Local Storage</span>
+  </div>
 
     <a href="https://github.com/aditibansal-bit/Student-Task-Manager" target="_blank">
         <button>GitHub</button>
@@ -85,6 +168,42 @@
         <button>Live Demo</button>
     </a>
   </div>
+  <div class="project-card featured-project">
+    <p class="featured-label">⭐ Featured Project</p>
+    <h3>🌸 Hand Bloom Flowers</h3>
+    <p class="status">⭐ Featured Project</p>
+
+    <p>
+        An interactive web application that transforms hand gestures into a beautiful blooming flower experience.
+        Built using HTML, CSS, JavaScript and real-time hand tracking with MediaPipe.
+    </p>
+    <div class="tech-tags">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>MediaPipe</span>
+  </div>
+
+    <a href="https://github.com/aditibansal-bit/hand-bloom-flowers" target="_blank">
+        <button>GitHub</button>
+    </a>
+
+    <a href="https://hand-bloom-flowers.netlify.app" target="_blank">
+        <button>Live Demo</button>
+    </a>
+</div>
+  </section>
+  <section class="certificates" id="certificates">
+    <h2>Certificates</h2>
+
+    <div class="certificate-card">
+        <h3>Coming Soon</h3>
+        <p>
+            I am currently working on earning certificates in web development,
+            JavaScript, GitHub and emerging technologies.
+        </p>
+    </div>
+</section>
 <section class="education">
 
     <h2>Education</h2>
@@ -92,11 +211,73 @@
     <div class="edu-card">
         <h3>Bachelor of Computer Applications (BCA)</h3>
         <p>ICFAI University Jaipur</p>
-        <p>2024 - 2027</p>
+        <p>2024 - 2027 (Pursuing)</p>
+    </div>
+
+    <div class="edu-card">
+        <h3>Higher Secondary (Class 12)</h3>
+        <p>Completed in 2024</p>
+    </div>
+
+    <div class="edu-card">
+        <h3>Secondary School (Class 10)</h3>
+        <p>Completed in 2022</p>
     </div>
 
 </section>
-    <section class="contact">
+<section class="journey">
+
+    <h2>Developer Journey</h2>
+
+    <div class="journey-card">
+
+        <div class="journey-item">
+            <h3>2024</h3>
+            <p>Started BCA at ICFAI University Jaipur</p>
+        </div>
+
+        <div class="journey-item">
+            <h3>2025</h3>
+            <p>Started learning HTML, CSS and JavaScript</p>
+        </div>
+
+        <div class="journey-item">
+            <h3>2026</h3>
+            <p>Built and deployed multiple frontend projects including Lana Player, Student Task Manager, Hand Bloom Flowers, and Portfolio Website while completing a Web Development Internship.
+         </p>       
+        </div>
+
+        <div class="journey-item">
+            <h3>Present</h3>
+            <p>Currently completing internship and continuously learning web development.</p>
+        </div>
+
+    </div>
+    <section class="resume" id="resume">
+
+    <h2>Resume</h2>
+
+    <div class="resume-card">
+        <h3>📄 My Resume</h3>
+
+        <p>
+            Want to know more about my education, skills, projects and experience?
+            You can view or download my resume here.
+        </p>
+
+        <a href="resume.pdf" target="_blank">
+            <button>View Resume</button>
+        </a>
+
+        <a href="resume.pdf" download>
+            <button>Download Resume</button>
+        </a>
+    </div>
+
+</section>
+
+</section>
+    <section class="contact" id="contact">
 
     <h2>Contact Me</h2>
 
@@ -107,6 +288,12 @@
     <a href="https://www.linkedin.com/in/aditi-bansal-3019a2362" target="_blank">
         Aditi Bansal
     </a>
+    <p>
+    GitHub:
+    <a href="https://github.com/aditibansal-bit" target="_blank">
+        aditibansal-bit
+    </a>
+</p>
 </p> 
 
 </section>
